@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface TodoService {
 
-    public List<String> retrieveTodos(String user);
+    public List<String> getTodos(String user);
 }
