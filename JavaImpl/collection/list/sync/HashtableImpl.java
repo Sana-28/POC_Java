@@ -14,9 +14,14 @@ public class HashtableImpl {
         hashtable.put(1,"tom");
         hashtable.put(2,"jerry");
         hashtable.put(2,"jerry");
+        System.out.println("HT size-"+hashtable.size());
 
         Set<Integer> set= hashtable.keySet();
+        System.out.println("SET size-"+set.size());
+        System.out.println("SET Iter -"+set.iterator());
+
         Iterator<Integer> iterator= set.iterator();
+
         while (iterator.hasNext()){
             System.out.println("HT key--"+iterator.next());
             Integer key=iterator.next();

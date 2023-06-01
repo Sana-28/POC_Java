@@ -3,27 +3,25 @@ package Interview;
 import java.util.ArrayList;
 import java.util.List;
 
+/**Sort array without sort method*/
 public class Sorting {
     public static int arr[]={10,9,8,7,6,5,4,3,2,1};
     public static  void main(String args[]){
-        List<Integer> list= new ArrayList<>();
-        list.add(100);
-        list.add(600);
-        list.add(500);
-        list.add(400);
-        list.add(300);
-        list.add(200);
-        list.add(800);
-        list.add(700);
-        list.add(900);
-        list.add(1000);
 
-        int j=1;
         for(int i=0; i < arr.length; i++){
-            if(arr[i] < arr[j]){
+            System.out.println("Before sorting:"+arr[i]);
 
+            for(int j=i+1; j< arr.length;j++ ){
+                int temp=0;
+                if(arr[i] > arr[j]){
+                    temp=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=arr[i];
+                }
             }
         }
-
+        for(int i=0;i< arr.length; i++){
+            System.out.println("Sorted list:"+arr[i]);
+        }
     }
 }

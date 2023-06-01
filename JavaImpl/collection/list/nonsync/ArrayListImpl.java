@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-/*Implements list
+/**Implements list
 * maintain insertion order
 * contains duplicate
 * non synchronised

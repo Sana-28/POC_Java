@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-/*Implements list
+/**Implements list
 * Duplicates allowed
 * Maintain insertion order
 * non synchronised
@@ -25,8 +25,9 @@ public class LinkedListImpl {
         linkedList.add("Grey");
         linkedList.add("Mack");
         Iterator<String> iterable=  linkedList.iterator();
+        System.out.println(iterable.hasNext());
         while (iterable.hasNext()){
-            System.out.println("Data:"+ iterable.next());
+            System.out.println("Elements"+":"+ iterable.next());
         }
 
 

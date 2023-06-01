@@ -1,8 +1,6 @@
 package Interview;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MapSorting {
     public static void main(String args[]){
@@ -11,8 +9,13 @@ public class MapSorting {
         map.put(2,"kia");
         map.put(3,"sid");
         map.put(4,"ansh");
-        System.out.println("Size:"+map.size());
+        System.out.println("Size map:"+map.size());
 
-        
+
+        Iterator iterator=map.keySet().iterator();
+        while (iterator.hasNext()){
+            int key= (int) iterator.next();
+            System.out.println("Elem:"+map.get(key));
+        }
     }
 }

@@ -1,7 +1,6 @@
 package collection.differences;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 /**AL implements List interface, HM implements Map interface
  * AL use add method, HM uses put method
@@ -33,5 +32,11 @@ public class ArrVsMap {
         hm.put(3, "C");
         hm.put(4, "D");
         System.out.print("Hash Map: " + hm);
+        Set set= hm.entrySet();
+        Iterator iterator=set.iterator();
+        while (iterator.hasNext()){
+            Map.Entry entry= (Map.Entry) iterator.next();
+            System.out.print("HM in loop: " + entry.getKey()+"---"+entry.getValue());
+        }
     }
 }
