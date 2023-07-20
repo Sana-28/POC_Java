@@ -1,4 +1,4 @@
-package Multithreading.Demo2;
+package multithreading.demo2;
 
 public class DisplayMessage implements Runnable{
     private String message;

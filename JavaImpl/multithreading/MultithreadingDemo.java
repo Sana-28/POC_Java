@@ -1,4 +1,4 @@
-package Multithreading;
+package multithreading;
 
 /**Multithreading is execution of two or more processes at the same time.
  * It's a feature in java which allows concurrent execution of two or more parts of program for max utilization of CPU.

@@ -1,4 +1,4 @@
-package java8impl.lamda.collection;
+package collection.map;
 
 /**Sort map via stream**/
 public class SortMap {

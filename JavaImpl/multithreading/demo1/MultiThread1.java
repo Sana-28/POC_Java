@@ -1,4 +1,4 @@
-package Multithreading.Demo1;
+package multithreading.demo1;
 
 public class MultiThread1 {
     public static void main(String args[]){

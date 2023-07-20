@@ -1,4 +1,4 @@
-package core;
+package core.design.pattern;
 
 public class SampleSingletone {
     private static SampleSingletone ref = null;

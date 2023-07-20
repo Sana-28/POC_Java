@@ -1,4 +1,4 @@
-package Multithreading.Demo2;
+package multithreading.demo2;
 
 public class GuessANumber extends  Thread{
     int number;

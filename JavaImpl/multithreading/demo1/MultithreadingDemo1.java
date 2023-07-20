@@ -1,4 +1,4 @@
-package Multithreading.Demo1;
+package multithreading.demo1;
 
 public class MultithreadingDemo1 implements Runnable {
     @Override
